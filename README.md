@@ -19,6 +19,11 @@ There is still a lot of work to do but I think its in a decent phase to get some
 
 ## PySide Layout Tool
   - UE Editor crashes without warning if Houdini Engine is started first and than creating a new UI Layout.
+  
+  ### HDA Reconstruct UI
+    - Mutliparm folder currently does not work yet.
+    - Ramp callback not yet implemented.
+    - Serialization for HDA UI work but lose wrapping instance when reopen project.
 
   ### Ramp
     - Not all interpolation are yet implemented.
@@ -26,5 +31,8 @@ There is still a lot of work to do but I think its in a decent phase to get some
     
   ### Collapisble
     - Folder does not yet update properly on dynamic updates of other widgets.
+    
+   
+    
     
   
