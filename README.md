@@ -50,7 +50,7 @@ There is still a lot of work to do but I think its in a decent phase to get some
   - UE Editor crashes without warning if Houdini Engine is started first and than creating a new UI Layout.
   
   ### HDA Reconstruct UI
-    - Mutliparm folder currently does not work yet.
+    - Multiparm folder currently does not work yet.
     - Ramp callback not yet implemented.
     - Serialization for HDA UI work but lose wrapping instance when reopen project.
 
