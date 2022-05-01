@@ -12,9 +12,9 @@ There is still a lot of work to do but I think its in a decent phase to get some
  
 # Usage
 ## Creating UI Layout
-  - Create New UI : Creates a new UI Layout
-  - Load : This will construct and display .qui files saved.
-  - Loaded UI: quick access to loaded and newly constructed UI.
+  - ```Create New UI``` : Creates a new UI Layout
+  - ```Load``` : This will construct and display .qui files saved.
+  - ```Loaded UI``` : quick access to loaded and newly constructed UI.
   
   ![Screenshot (420)](https://user-images.githubusercontent.com/19835724/166124237-315b7136-ddd3-4f66-830c-05ff62fd1fda.png)
   
@@ -37,11 +37,12 @@ There is still a lot of work to do but I think its in a decent phase to get some
   ### Script Section
      
    - On Parameter/Folder Callback to work with script: ```ui.editor('Name of UI', 'Category Name').pyModule('Module Name').func()```
+   - Also by passing ```self``` to your ```func(self)``` will pass parameter object whose callback is invoked.
    - To get other parameter objects : ```ui.layout('Name of UI', 'Category Name').parm('parameter Name')```
     
    ![Screenshot (419)](https://user-images.githubusercontent.com/19835724/166126567-36066af9-ab27-44e5-9a3e-8d211eca260c.png)
    
-  ### Parameter Functions
+  ### Metadata Functions
    
    - ```name()``` : return string name of the parameter.
    - ```label()``` : return string display name that is shown on layout.
@@ -52,7 +53,20 @@ There is still a lot of work to do but I think its in a decent phase to get some
    - ```invisible()``` : return bool.
    - ```eval()``` : return value of a parameter.
    - ```set_value(value)```: set value for parameter.
+   
+  ### Parameter Functions
   
+   - ```bNeighbor()``` : return bool parameter as another parameter next to it.
+   - ```default_value()``` : return string of default value of parameter.
+  
+  ### Folder Functions
+  
+   - ```tab_hide()```: return string of tab hide expression.
+   - ```tab_disable()``` : return string of tab disable expression.
+
+  ### Hide/Disable Expression
+    For an expression to work for a parameter e.g :( { parameter_name == 5 } ).
+    If you have experince with Houdini digital asset its the same format expression.
   
 # Known Issues 
 
