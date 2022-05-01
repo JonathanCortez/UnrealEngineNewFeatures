@@ -37,9 +37,23 @@ There is still a lot of work to do but I think its in a decent phase to get some
   ### Script Section
      
    - On Parameter/Folder Callback to work with script: ```ui.editor('Name of UI', 'Category Name').pyModule('Module Name').func()```
+   - To get other parameter objects : ```ui.layout('Name of UI', 'Category Name').parm('parameter Name')```
     
    ![Screenshot (419)](https://user-images.githubusercontent.com/19835724/166126567-36066af9-ab27-44e5-9a3e-8d211eca260c.png)
-
+   
+  ### Parameter Functions
+   
+   - ```name()``` : return string name of the parameter.
+   - ```label()``` : return string display name that is shown on layout.
+   - ```callback()``` : return string of script or empty string.
+   - ```type()``` : return dictonary ```currentItem_name``` , ```currentItem_index```.
+   - ```disable_when()``` : return string of expression or empty string.
+   - ```hiden_when()``` : return string of expression or empty string.
+   - ```invisible()``` : return bool.
+   - ```eval()``` : return value of a parameter.
+   - ```set_value(value)```: set value for parameter.
+  
+  
 # Known Issues 
 
 ## Houdini Viewport Editor
