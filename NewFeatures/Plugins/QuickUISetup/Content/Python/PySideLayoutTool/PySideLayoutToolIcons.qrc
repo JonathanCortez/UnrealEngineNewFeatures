@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>Resources/Icons/add_file.svg</file>
+    <file>Resources/Icons/arrow_chevron_down.svg</file>
+    <file>Resources/Icons/arrow_chevron_up.svg</file>
+    <file>Resources/Icons/arrow_down_box.svg</file>
+    <file>Resources/Icons/arrow_exchange_alt.svg</file>
+    <file>Resources/Icons/arrow_exchange_v.svg</file>
+    <file>Resources/Icons/arrow_left_box.svg</file>
+    <file>Resources/Icons/border_style_dashed_sep.svg</file>
+    <file>Resources/Icons/border_style_solid_sep.svg</file>
+    <file>Resources/Icons/checkbox_checked.svg</file>
+    <file>Resources/Icons/checkbox_unchecked.svg</file>
+    <file>Resources/Icons/checkbox_unchecked_disable.svg</file>
+    <file>Resources/Icons/checkerPattern.png</file>
+    <file>Resources/Icons/checkerPatternAlpha.png</file>
+    <file>Resources/Icons/chevron_arrow_down.svg</file>
+    <file>Resources/Icons/chevron_arrow_right.svg</file>
+    <file>Resources/Icons/color_picker.svg</file>
+    <file>Resources/Icons/comment.svg</file>
+    <file>Resources/Icons/eye_view.svg</file>
+    <file>Resources/Icons/folder_minus.svg</file>
+    <file>Resources/Icons/folder_plus.svg</file>
+    <file>Resources/Icons/lock_locked.svg</file>
+    <file>Resources/Icons/lock_unlocked.svg</file>
+    <file>Resources/Icons/menu_list_display.svg</file>
+    <file>Resources/Icons/move_left_arrow.svg</file>
+    <file>Resources/Icons/move_right_arrow.svg</file>
+    <file>Resources/Icons/normal_close.svg</file>
+    <file>Resources/Icons/normal_close_pressed.svg</file>
+    <file>Resources/Icons/normal_folder.svg</file>
+    <file>Resources/Icons/splitter_vertical_alt_2.svg</file>
+    <file>Resources/Icons/vertical_alt.svg</file>
+    <file>Resources/Icons/zoom_in.svg</file>
+    <file>Resources/Icons/zoom_out.svg</file>
+</qresource>
+</RCC>
