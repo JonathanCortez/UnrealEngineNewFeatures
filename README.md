@@ -99,6 +99,8 @@ There is still a lot of work to do, but I think its in a decent phase to get som
 ## PySide Layout Tool
   - UE Editor crashes without warning if Houdini Engine is started first and than creating a new UI Layout.
   - Testing.qui file is there to currently avoid that.
+  - importing modules from text editor will fail depending on scope.
+    - text editor will be reworked completely with jedi or kite plugin. 
   
   ### HDA Reconstruct UI
     - Multiparm folder currently does not work yet.
