@@ -51,7 +51,7 @@ There is still a lot of work to do but I think its in a decent phase to get some
    - ```name()``` : return string name of the parameter.
    - ```label()``` : return string display name that is shown on layout.
    - ```callback()``` : return string of script or empty string.
-   - ```type()``` : return dictonary ```currentItem_name``` , ```currentItem_index```.
+   - ```type()``` : return namedtuple ```currentItem_name``` , ```currentItem_index```.
    - ```disable_when()``` : return string of expression or empty string.
    - ```hiden_when()``` : return string of expression or empty string.
    - ```invisible()``` : return bool.
@@ -104,7 +104,6 @@ There is still a lot of work to do but I think its in a decent phase to get some
   ### Collapisble
     - Folder does not yet update properly on dynamic updates of other widgets.
     
-   
     
     
   
