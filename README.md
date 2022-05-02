@@ -9,9 +9,13 @@ There is still a lot of work to do but I think its in a decent phase to get some
 # Installing the project
  1. Must have PySide2 installed on your UE_4.27 build.
     - ```pip install PySide2``` to ```../UE_4.27/Engine/Binaries/ThirdParty/Python3/Win64/python.exe```
+    
+ 2. Using Houdini Engine Plugin ```H18.5.672```
  
 # Usage
-## Creating UI Layout
+
+## PySide Layout Tool
+### Creating UI Layout
   - ```Create New UI``` : Creates a new UI Layout
   - ```Load``` : This will construct and display .qui files saved.
   - ```Loaded UI``` : quick access to loaded and newly constructed UI.
@@ -67,6 +71,15 @@ There is still a lot of work to do but I think its in a decent phase to get some
   ### Hide/Disable Expression
     For an expression to work for a parameter e.g :( { parameter_name == 5 } ).
     If you have experince with Houdini digital asset its the same format expression.
+  
+  ## Houdini Asset Editor Window
+   ![Screenshot (425)](https://user-images.githubusercontent.com/19835724/166222136-0d2f9334-b576-4c4e-bfb3-5fd8e9c1f338.png)
+   
+   ![Screenshot (422)](https://user-images.githubusercontent.com/19835724/166222182-0ac62697-c24d-4a3e-b787-b79ae69c9204.png)
+   
+   
+   ![Screenshot (423)](https://user-images.githubusercontent.com/19835724/166222187-c13dd3d5-0c09-42a5-92a8-76a69ac0dfc0.png)
+
   
 # Known Issues 
 
