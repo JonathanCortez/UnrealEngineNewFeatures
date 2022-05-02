@@ -71,7 +71,16 @@ There is still a lot of work to do but I think its in a decent phase to get some
   ### Hide/Disable Expression
     For an expression to work for a parameter e.g :( { parameter_name == 5 } ).
     If you have experince with Houdini digital asset its the same format expression.
-  
+    
+  ### PySide Tool Plugin Settings
+   ![Screenshot (429)](https://user-images.githubusercontent.com/19835724/166329432-d7d10e09-ddcb-4128-bb6c-e007e855bfdf.png)
+    
+   - ```Root Save``` : where created UI layout will be saved.
+   - ```Houdini and Python UI``` : enable to reconstruct HDA UI using PySide Tool.
+      - ```warning``` not all HDA will work still early WIP.
+   - ```Keep Json``` doesnt do anything yet. 
+   - ```Save Path``` Path Json file is saved.
+
   ## Houdini Asset Editor Window
    ![Screenshot (425)](https://user-images.githubusercontent.com/19835724/166222136-0d2f9334-b576-4c4e-bfb3-5fd8e9c1f338.png)
    
