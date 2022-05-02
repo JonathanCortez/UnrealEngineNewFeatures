@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-QuickUISetup.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\NewFeaturesEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"E:\EpicGames\NewFeatures\Plugins\QuickUISetup\Intermediate\Build\Win64\UE4Editor\Development\QuickUISetup\Module.QuickUISetup.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\QuickUISetup\Intermediate\Build\Win64\UE4Editor\Development\QuickUISetup\Module.QuickUISetup.gen.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\QuickUISetup\Intermediate\Build\Win64\UE4Editor\Development\QuickUISetup\Default.rc2.res"
+/OUT:"E:\EpicGames\NewFeatures\Plugins\QuickUISetup\Intermediate\Build\Win64\UE4Editor\Development\QuickUISetup\UE4Editor-QuickUISetup.lib"

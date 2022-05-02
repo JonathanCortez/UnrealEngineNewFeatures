@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NewFeatures",
+			"Path": "E:\\EpicGames\\NewFeatures\\Source\\NewFeatures.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NewFeaturesEditor",
+			"Path": "E:\\EpicGames\\NewFeatures\\Source\\NewFeaturesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

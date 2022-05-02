@@ -1,0 +1,28 @@
+{
+	"Root": [
+		{
+			"Name": "newparameter",
+			"Label": "Testing",
+			"Type": "Ramp",
+			"Default": "None",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": false,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			},
+			"Settings":
+			{
+				"Min": "",
+				"Max": "",
+				"MinLock": true,
+				"MaxLock": true,
+				"Size": "",
+				"Values": "{'positions' : ['0', '1'],'values' : ['0', '1'],'interpolations' : ['1', '1']}"
+			}
+		}
+	]
+}

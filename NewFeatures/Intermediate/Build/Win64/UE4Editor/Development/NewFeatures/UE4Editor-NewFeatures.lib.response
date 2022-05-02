@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-NewFeatures.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\NewFeaturesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\NewFeatures.cpp.obj"
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\NewFeaturesGameModeBase.cpp.obj"
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\NewFeatures.init.gen.cpp.obj"
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\NewFeaturesGameModeBase.gen.cpp.obj"
+"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\Default.rc2.res"
+/OUT:"E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\UE4Editor-NewFeatures.lib"

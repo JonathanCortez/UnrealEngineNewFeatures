@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HoudiniEngine.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\PCH.HoudiniEngine.h.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.1_of_5.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.2_of_5.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.3_of_5.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.4_of_5.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.5_of_5.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Module.HoudiniEngine.gen.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\Default.rc2.res"
+/OUT:"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngine\UE4Editor-HoudiniEngine.lib"

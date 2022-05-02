@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"E:\\EpicGames\\NewFeatures\\Source\\NewFeatures\\NewFeatures.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Plugins\\HoudiniEngine\\Source\\HoudiniAssetEditor\\HoudiniAssetEditor.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Plugins\\HoudiniEngine\\Source\\HoudiniEngine\\HoudiniEngine.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineEditor\\HoudiniEngineEditor.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineRuntime\\HoudiniEngineRuntime.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Plugins\\QuickUISetup\\Source\\QuickUISetup\\QuickUISetup.Build.cs",
+		"E:\\EpicGames\\NewFeatures\\Source\\NewFeatures.Target.cs",
+		"E:\\EpicGames\\NewFeatures\\Source\\NewFeaturesEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

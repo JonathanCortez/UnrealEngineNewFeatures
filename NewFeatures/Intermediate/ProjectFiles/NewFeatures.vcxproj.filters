@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NewFeatures.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6F3B6D6D-0D60-4E2D-A6D4-4AA71CA89EB1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NewFeatures.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NewFeaturesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\NewFeatures.sln.DotSettings.user" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A20387EB-9A06-477C-A1D5-50CEEC10B65C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{4C0DE43B-13A3-4596-AA8C-39D428CFF20B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HoudiniEngine">
+      <UniqueIdentifier>{BB3C025B-CFA1-46B9-A0FA-ADF504EB5717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HoudiniEngine\Source">
+      <UniqueIdentifier>{47BEB90A-6968-4A61-961A-64522D03A193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniAssetEditor">
+      <UniqueIdentifier>{F2C81278-D27E-4A78-8803-0B3B8C933E93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\HoudiniAssetEditor.Build.cs">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private">
+      <UniqueIdentifier>{B56CA070-0F1E-49A5-AE94-243327485488}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\AssetTypeActions_HoudiniAssetEditor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\AssetTypeActions_HoudiniAssetEditor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorActions.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorActions.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorModule.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorPrivatePCH.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorTools.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorTools.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorViewportClient.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetEditorViewportClient.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetViewportLODCommands.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\HoudiniAssetViewportLODCommands.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\SHoudiniAssetEditorViewport.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\SHoudiniAssetEditorViewport.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\SHoudiniAssetEditorViewportToolBar.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private\SHoudiniAssetEditorViewportToolBar.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Public">
+      <UniqueIdentifier>{FB8FD7F4-141C-4FEC-AA64-0640EC81793C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Public\HoudiniAssetEditorModule.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Public\IHoudiniAssetEditor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniAssetEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\HoudiniEngine\HoudiniEngine.uplugin">
+      <Filter>Plugins\HoudiniEngine</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Resources">
+      <UniqueIdentifier>{DDD63A00-C15D-49AA-A596-2156D7F0BCE2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_banner.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_banner_d.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_logo_128.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_recook_icon.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_reload_icon.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_resetparameters_icon.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icon128.png">
+      <Filter>Plugins\HoudiniEngine\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Resources\Icons">
+      <UniqueIdentifier>{5C3942C1-747E-4738-8AA0-4B6DC5E0A6F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\asset_help16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\bake_all16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\bake_selected16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\clean_temp16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\cook_all16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\cook_log16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\cook_selected16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\digital_asset16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\houdini_digital_asset.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\houdini_digital_asset_128.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_hengine_logo_128.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_hengine_logo_16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_hengine_logo_40.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_houdini_logo_128.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_houdini_logo_16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\icon_houdini_logo_40.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\online_forum16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\online_help16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\open_in_houdini16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pause16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_cancel16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_dirty_all16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_dirty_node16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_link16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_pause16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_refresh16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\pdg_reset16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\rebuild_all16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\rebuild_selected16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\refine_all16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\refine_selected16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\report_bug16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\reset16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\reset_parameters16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\save_to_hip16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_connect16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_create16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_restart16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_stop16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_sync16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_sync_start16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\session_sync_stop16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\sync_unreal16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\viewport_sync16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\viewport_sync_both16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\viewport_sync_houdini16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\viewport_sync_off16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\viewport_sync_unreal16x16.png">
+      <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
+    </None>
+    <Filter Include="Plugins\QuickUISetup">
+      <UniqueIdentifier>{7D1780AD-3D41-4094-ACEA-D5EC431BACD9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\QuickUISetup\QuickUISetup.uplugin">
+      <Filter>Plugins\QuickUISetup</Filter>
+    </None>
+    <Filter Include="Plugins\QuickUISetup\Resources">
+      <UniqueIdentifier>{B8302DCA-80A6-47A2-A19A-0C7EB91DE1E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\QuickUISetup\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\QuickUISetup\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\QuickUISetup\Resources\Icon128.png">
+      <Filter>Plugins\QuickUISetup\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine">
+      <UniqueIdentifier>{753C0F3D-1AEF-45AE-A442-4429348CCE9A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\HoudiniEngine.Build.cs">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Private">
+      <UniqueIdentifier>{789891A7-2E5C-48AF-9FD8-AAE439A53B71}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HBSPOps.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HBSPOps.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HCsgUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HCsgUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniApi.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngine.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngine.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineManager.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineManager.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineOutputStats.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineOutputStats.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEnginePrivatePCH.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineScheduler.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineScheduler.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineString.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineString.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTask.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTask.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTaskInfo.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTaskInfo.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniGeoImportCommandlet.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniGeoImportCommandlet.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniGeoImporter.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniGeoImporter.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniHandleTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniHandleTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniInputTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniInputTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniInstanceTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniInstanceTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniLandscapeTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniLandscapeTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniMaterialTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniMaterialTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniMeshTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniMeshTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniOutputTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniOutputTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPackageParams.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPackageParams.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniParameterTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniParameterTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGImporterMessages.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGImporterMessages.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGManager.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGManager.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniSplineTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniSplineTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniStringResolver.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniStringResolver.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\SAssetSelectionWidget.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\SAssetSelectionWidget.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealBrushTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealBrushTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealFoliageTypeTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealFoliageTypeTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealInstanceTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealInstanceTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealLandscapeTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealLandscapeTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealMeshTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealMeshTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealSplineTranslator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\UnrealSplineTranslator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests">
+      <UniqueIdentifier>{2144A760-29D4-4765-9C55-798EFC1D0994}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests\HoudiniCoreTests.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests\HoudiniCoreTests.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Public">
+      <UniqueIdentifier>{B4CFFDFE-E19B-4876-AE0B-138409953878}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HoudiniApi.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI">
+      <UniqueIdentifier>{FA1EA767-61A9-493E-97E2-24304FBD5A10}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_API.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_Common.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_Helpers.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_Version.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor">
+      <UniqueIdentifier>{F6B1D263-7428-49B9-B401-ABAE574F2A29}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\HoudiniEngineEditor.Build.cs">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private">
+      <UniqueIdentifier>{4A8D3A38-ADCF-447C-A5CD-055EADE0705E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\AssetTypeActions_HoudiniAsset.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\AssetTypeActions_HoudiniAsset.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetActorFactory.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetActorFactory.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetBroker.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetBroker.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetComponentDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetComponentDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetEditorActorFactory.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetEditorActorFactory.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetEditorFactory.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetEditorFactory.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetFactory.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniAssetFactory.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineBakeUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineBakeUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineCommands.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineCommands.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineEditor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineEditor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineEditorPrivatePCH.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineEditorUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineEditorUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineStyle.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniEngineStyle.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniGeoFactory.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniGeoFactory.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniHandleComponentVisualizer.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniHandleComponentVisualizer.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniHandleDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniHandleDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniInputDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniInputDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniOutputDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniOutputDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniParameterDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniParameterDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPDGDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPDGDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPI.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIAssetWrapper.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIBlueprintLib.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIInputTypes.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIObjectBase.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIOutputTypes.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniPublicAPIProcessHDANode.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniRuntimeSettingsDetails.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniRuntimeSettingsDetails.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniSplineComponentVisualizer.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniSplineComponentVisualizer.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniTool.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\HoudiniTool.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\SNewFilePathPicker.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\SNewFilePathPicker.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests">
+      <UniqueIdentifier>{5C8BD3B5-973E-4D07-97A3-A03D2D2754C2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests\HoudiniEditorTests.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests\HoudiniEditorTests.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests\HoudiniEditorTestUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests\HoudiniEditorTestUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public">
+      <UniqueIdentifier>{937AFE56-436B-424E-A014-5A5B22189361}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPI.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIAssetWrapper.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIBlueprintLib.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIInputTypes.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIObjectBase.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIOutputTypes.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPIProcessHDANode.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\IHoudiniEngineEditor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime">
+      <UniqueIdentifier>{A4E00F3E-4F6D-4DA4-BF27-09E469E46D53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\HoudiniEngineRuntime.Build.cs">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private">
+      <UniqueIdentifier>{0B35747A-18FD-4D95-92C8-7E3B13D485FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAsset.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAsset.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetActor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetActor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetBlueprintComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetBlueprintComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetEditorActor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetEditorActor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetEditorObject.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetEditorObject.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetStateTypes.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniCompatibilityHelpers.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniCompatibilityHelpers.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineCopyPropertiesInterface.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineCopyPropertiesInterface.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntime.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntime.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntimePrivatePCH.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntimeUtils.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntimeUtils.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGenericAttribute.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGenericAttribute.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGeoPartObject.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGeoPartObject.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniHandleComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniHandleComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInput.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInput.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInputObject.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInputObject.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInputTypes.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInstancedActorComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniInstancedActorComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniMeshSplitInstancerComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniMeshSplitInstancerComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniOutput.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniOutput.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameter.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameter.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterButton.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterButton.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterButtonStrip.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterButtonStrip.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterChoice.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterChoice.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterColor.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterColor.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFile.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFile.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFloat.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFloat.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFolder.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFolder.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFolderList.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterFolderList.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterInt.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterInt.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterLabel.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterLabel.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterMultiParm.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterMultiParm.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterOperatorPath.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterOperatorPath.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterRamp.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterRamp.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterSeparator.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterSeparator.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterString.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterString.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterToggle.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniParameterToggle.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPDGAssetLink.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPDGAssetLink.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPluginSerializationVersion.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPluginSerializationVersion.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPublicAPIProcessedAsset.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPublicAPIProcessedAsset.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniRuntimeSettings.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniRuntimeSettings.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniSplineComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniSplineComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMesh.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMesh.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMeshComponent.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMeshComponent.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMeshSceneProxy.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniStaticMeshSceneProxy.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniTranslatorTypes.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniTranslatorTypes.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\IHoudiniAssetStateEvents.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\IHoudiniAssetStateEvents.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests">
+      <UniqueIdentifier>{CFD1A1A1-01FD-41FE-9CDF-10AF5FEF8812}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests\HoudiniRuntimeTests.cpp">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests\HoudiniRuntimeTests.h">
+      <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\QuickUISetup\Source">
+      <UniqueIdentifier>{16AF2930-8AFA-4207-83AA-35E43CDC8518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\QuickUISetup\Source\QuickUISetup">
+      <UniqueIdentifier>{DEC9A376-9B17-4D12-B644-DB67CCFE78B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\QuickUISetup.Build.cs">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup</Filter>
+    </None>
+    <Filter Include="Plugins\QuickUISetup\Source\QuickUISetup\Private">
+      <UniqueIdentifier>{50F70FB6-CD94-4F62-8575-C42BCDC4557D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\HoudiniDetails.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\HoudiniPythonClass.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\HoudiniPythonManger.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\HoudiniUIBridge.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\QuickUIMenu.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\QuickUISettings.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\QuickUISetup.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\QuickUISetupCommands.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\QuickUISetupStyle.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Private\UIPythonBridge.cpp">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\QuickUISetup\Source\QuickUISetup\Public">
+      <UniqueIdentifier>{CE15420A-B068-4AE4-8BA3-28FDB1912F15}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\HoudiniDetails.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\HoudiniPythonClass.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\HoudiniPythonManger.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\HoudiniUIBridge.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\QuickUIMenu.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\QuickUISettings.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\QuickUISetup.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\QuickUISetupCommands.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\QuickUISetupStyle.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\QuickUISetup\Source\QuickUISetup\Public\UIPythonBridge.h">
+      <Filter>Plugins\QuickUISetup\Source\QuickUISetup\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\NewFeatures">
+      <UniqueIdentifier>{D64A05E8-03D9-4910-93A0-F5D1800D8DEA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NewFeatures\NewFeatures.Build.cs">
+      <Filter>Source\NewFeatures</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NewFeatures\NewFeatures.cpp">
+      <Filter>Source\NewFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewFeatures\NewFeatures.h">
+      <Filter>Source\NewFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewFeatures\NewFeaturesGameModeBase.cpp">
+      <Filter>Source\NewFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewFeatures\NewFeaturesGameModeBase.h">
+      <Filter>Source\NewFeatures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

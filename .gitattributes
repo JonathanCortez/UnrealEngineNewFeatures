@@ -1,0 +1,6 @@
+NewFeatures/Intermediate/Build/Win64/NewFeaturesEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+NewFeatures/Intermediate/Build/Win64/NewFeaturesEditor/Development/UnrealEd/SharedPCH.UnrealEd.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+NewFeatures/Plugins/HoudiniEngine/Intermediate/Build/Win64/UE4Editor/DebugGame/HoudiniAssetEditor/PCH.HoudiniAssetEditor.h.pch filter=lfs diff=lfs merge=lfs -text
+NewFeatures/Plugins/HoudiniEngine/Intermediate/Build/Win64/UE4Editor/DebugGame/HoudiniEngineEditor/PCH.HoudiniEngineEditor.h.pch filter=lfs diff=lfs merge=lfs -text
+NewFeatures/Plugins/HoudiniEngine/Intermediate/Build/Win64/UE4Editor/Development/HoudiniAssetEditor/PCH.HoudiniAssetEditor.h.pch filter=lfs diff=lfs merge=lfs -text
+NewFeatures/Plugins/HoudiniEngine/Intermediate/Build/Win64/UE4Editor/Development/HoudiniEngineEditor/PCH.HoudiniEngineEditor.h.pch filter=lfs diff=lfs merge=lfs -text

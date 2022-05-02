@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HoudiniAssetEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniAssetEditor\PCH.HoudiniAssetEditor.h.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniAssetEditor\Module.HoudiniAssetEditor.cpp.obj"
+"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniAssetEditor\Default.rc2.res"
+/OUT:"E:\EpicGames\NewFeatures\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniAssetEditor\UE4Editor-HoudiniAssetEditor.lib"

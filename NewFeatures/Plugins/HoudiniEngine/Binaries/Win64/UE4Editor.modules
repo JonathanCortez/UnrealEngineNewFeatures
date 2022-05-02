@@ -1,0 +1,10 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"HoudiniAssetEditor": "UE4Editor-HoudiniAssetEditor.dll",
+		"HoudiniEngine": "UE4Editor-HoudiniEngine.dll",
+		"HoudiniEngineEditor": "UE4Editor-HoudiniEngineEditor.dll",
+		"HoudiniEngineRuntime": "UE4Editor-HoudiniEngineRuntime.dll"
+	}
+}

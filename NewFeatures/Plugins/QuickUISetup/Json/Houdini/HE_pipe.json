@@ -1,0 +1,461 @@
+{
+	"Root": [
+		{
+			"Name": "input",
+			"Label": "Style",
+			"Type": "Ordered Combo/Menu",
+			"Default": "Failed",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": false,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			},
+			"Settings":
+			{
+				"Min": "",
+				"Max": "",
+				"MinLock": true,
+				"MaxLock": true,
+				"Size": "",
+				"Values": "[['Base pipe', 'Smooth Pipe', 'Cables'],['0', '1', '2']]"
+			}
+		},
+		{
+			"Name": "cols",
+			"Label": "Pipes amount",
+			"Type": "Integer",
+			"Default": "2",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": false,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			},
+			"Settings":
+			{
+				"Min": "-2147483648",
+				"Max": "2147483647",
+				"MinLock": false,
+				"MaxLock": false,
+				"Size": "1",
+				"Values": ""
+			}
+		},
+		{
+			"Name": "width",
+			"Label": "Spacing pipes",
+			"Type": "Float",
+			"Default": "3.5",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": false,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			},
+			"Settings":
+			{
+				"Min": "-340282346638528859811704183484516925440.0",
+				"Max": "340282346638528859811704183484516925440.0",
+				"MinLock": false,
+				"MaxLock": false,
+				"Size": "1.0",
+				"Values": ""
+			}
+		},
+		{
+			"Name": "upvectortype",
+			"Label": "pipes direction",
+			"Type": "Ordered Combo/Menu",
+			"Default": "Failed",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": true,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			},
+			"Settings":
+			{
+				"Min": "",
+				"Max": "",
+				"MinLock": true,
+				"MaxLock": true,
+				"Size": "",
+				"Values": "[['Curve Normal', 'X Axis', 'Y Axis', 'Z Axis'],['0', '1', '2', '3']]"
+			}
+		},
+		{
+			"Name": "force_direction",
+			"Label": "Force direction",
+			"Type": "Toggle",
+			"Default": "(False)",
+			"Callback Script": "",
+			"Invisible": false,
+			"Disable": false,
+			"Horizontal join": false,
+			"Conditions":
+			{
+				"Hide When": "",
+				"Disable When": ""
+			}
+		},
+		{
+			"Parent Name": "folder0",
+			"Tab Count": 4,
+			"Type": "Tabs",
+			"Folders": [
+				{
+					"Name": "folder0_0",
+					"Label": "Base pipe",
+					"Type": "Tabs",
+					"Callback Script": "",
+					"Invisible": true,
+					"Disable": false,
+					"Conditions":
+					{
+						"Hide When": "",
+						"Disable When": ""
+					},
+					"FolderParameters": [
+						{
+							"Name": "radius",
+							"Label": "Radius Pipe",
+							"Type": "Float",
+							"Default": "0.518",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "-340282346638528859811704183484516925440.0",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": false,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "offset",
+							"Label": "Corner bevel amount",
+							"Type": "Float",
+							"Default": "0.8",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "0.1",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "divisions",
+							"Label": "Bevel Divisions",
+							"Type": "Integer",
+							"Default": "6",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "2",
+								"Max": "2147483647",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "cols2",
+							"Label": "Pipe Divisions",
+							"Type": "Integer",
+							"Default": "16",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "3",
+								"Max": "2147483647",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1",
+								"Values": ""
+							}
+						}
+					]
+				},
+				{
+					"Name": "folder0_1",
+					"Label": "Smooth pipe",
+					"Type": "Tabs",
+					"Callback Script": "",
+					"Invisible": true,
+					"Disable": false,
+					"Conditions":
+					{
+						"Hide When": "",
+						"Disable When": ""
+					},
+					"FolderParameters": [
+						{
+							"Name": "length",
+							"Label": "Spacing details",
+							"Type": "Float",
+							"Default": "0.8",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "0.3",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "value1v1",
+							"Label": "Radius",
+							"Type": "Float",
+							"Default": "0.3",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "-340282346638528859811704183484516925440.0",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": false,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "cols3",
+							"Label": "Divisions",
+							"Type": "Integer",
+							"Default": "20",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "3",
+								"Max": "2147483647",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1",
+								"Values": ""
+							}
+						}
+					]
+				},
+				{
+					"Name": "folder0_2",
+					"Label": "Cable",
+					"Type": "Tabs",
+					"Callback Script": "",
+					"Invisible": true,
+					"Disable": false,
+					"Conditions":
+					{
+						"Hide When": "",
+						"Disable When": ""
+					},
+					"FolderParameters": [
+						{
+							"Name": "radius2",
+							"Label": "Radius",
+							"Type": "Float",
+							"Default": "0.1",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "-340282346638528859811704183484516925440.0",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": false,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "cols4",
+							"Label": "Divisions",
+							"Type": "Integer",
+							"Default": "6",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "3",
+								"Max": "2147483647",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "length2",
+							"Label": "Rows Spacing",
+							"Type": "Float",
+							"Default": "0.15",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "0.15",
+								"Max": "340282346638528859811704183484516925440.0",
+								"MinLock": true,
+								"MaxLock": false,
+								"Size": "1.0",
+								"Values": ""
+							}
+						},
+						{
+							"Name": "input2",
+							"Label": "Solve overlap",
+							"Type": "Toggle",
+							"Default": "(False)",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							}
+						}
+					]
+				},
+				{
+					"Name": "folder0_3",
+					"Label": "Output",
+					"Type": "Tabs",
+					"Callback Script": "",
+					"Invisible": true,
+					"Disable": false,
+					"Conditions":
+					{
+						"Hide When": "",
+						"Disable When": ""
+					},
+					"FolderParameters": [
+						{
+							"Name": "cuspangle",
+							"Label": "Normal model",
+							"Type": "Float",
+							"Default": "60.0",
+							"Callback Script": "",
+							"Invisible": false,
+							"Disable": false,
+							"Horizontal join": false,
+							"Conditions":
+							{
+								"Hide When": "",
+								"Disable When": ""
+							},
+							"Settings":
+							{
+								"Min": "0.0",
+								"Max": "180.0",
+								"MinLock": true,
+								"MaxLock": true,
+								"Size": "1.0",
+								"Values": ""
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

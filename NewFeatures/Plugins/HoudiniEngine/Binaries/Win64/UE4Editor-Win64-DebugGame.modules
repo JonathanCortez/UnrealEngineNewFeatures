@@ -1,0 +1,10 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"HoudiniAssetEditor": "UE4Editor-HoudiniAssetEditor-Win64-DebugGame.dll",
+		"HoudiniEngine": "UE4Editor-HoudiniEngine-Win64-DebugGame.dll",
+		"HoudiniEngineEditor": "UE4Editor-HoudiniEngineEditor-Win64-DebugGame.dll",
+		"HoudiniEngineRuntime": "UE4Editor-HoudiniEngineRuntime-Win64-DebugGame.dll"
+	}
+}

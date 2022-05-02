@@ -1,0 +1,7 @@
+E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Development\NewFeatures\Definitions.NewFeatures.h
+E:\EpicGames\NewFeatures\Source\NewFeatures\NewFeaturesGameModeBase.h
+E:\EpicGames\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+E:\EpicGames\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+E:\EpicGames\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+E:\EpicGames\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\EpicGames\NewFeatures\Intermediate\Build\Win64\UE4Editor\Inc\NewFeatures\NewFeaturesGameModeBase.generated.h

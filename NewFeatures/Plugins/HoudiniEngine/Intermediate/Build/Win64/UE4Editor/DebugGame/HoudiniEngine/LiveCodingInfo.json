@@ -1,0 +1,65 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoudiniEngine.1_of_5.cpp.obj": [
+			"HBSPOps.cpp.obj",
+			"HCsgUtils.cpp.obj",
+			"HoudiniApi.cpp.obj",
+			"HoudiniEngine.cpp.obj",
+			"HoudiniEngineManager.cpp.obj",
+			"HoudiniEngineOutputStats.cpp.obj",
+			"HoudiniEngineScheduler.cpp.obj",
+			"HoudiniEngineString.cpp.obj",
+			"HoudiniEngineTask.cpp.obj",
+			"HoudiniEngineTaskInfo.cpp.obj",
+			"HoudiniEngineUtils.cpp.obj"
+		],
+		"Module.HoudiniEngine.2_of_5.cpp.obj": [
+			"HoudiniGeoImportCommandlet.cpp.obj",
+			"HoudiniGeoImporter.cpp.obj",
+			"HoudiniHandleTranslator.cpp.obj",
+			"HoudiniInputTranslator.cpp.obj",
+			"HoudiniInstanceTranslator.cpp.obj",
+			"HoudiniLandscapeTranslator.cpp.obj"
+		],
+		"Module.HoudiniEngine.3_of_5.cpp.obj": [
+			"HoudiniMaterialTranslator.cpp.obj",
+			"HoudiniMeshTranslator.cpp.obj",
+			"HoudiniOutputTranslator.cpp.obj"
+		],
+		"Module.HoudiniEngine.4_of_5.cpp.obj": [
+			"HoudiniPackageParams.cpp.obj",
+			"HoudiniParameterTranslator.cpp.obj",
+			"HoudiniPDGImporterMessages.cpp.obj",
+			"HoudiniPDGManager.cpp.obj",
+			"HoudiniPDGTranslator.cpp.obj",
+			"HoudiniSplineTranslator.cpp.obj",
+			"HoudiniStringResolver.cpp.obj",
+			"SAssetSelectionWidget.cpp.obj",
+			"HoudiniCoreTests.cpp.obj",
+			"UnrealBrushTranslator.cpp.obj",
+			"UnrealFoliageTypeTranslator.cpp.obj",
+			"UnrealInstanceTranslator.cpp.obj",
+			"UnrealLandscapeTranslator.cpp.obj"
+		],
+		"Module.HoudiniEngine.5_of_5.cpp.obj": [
+			"UnrealMeshTranslator.cpp.obj",
+			"UnrealSplineTranslator.cpp.obj"
+		],
+		"Module.HoudiniEngine.gen.cpp.obj": [
+			"HBSPOps.gen.cpp.obj",
+			"HCsgUtils.gen.cpp.obj",
+			"HoudiniEngine.gen.cpp.obj",
+			"HoudiniEngine.init.gen.cpp.obj",
+			"HoudiniEngineTask.gen.cpp.obj",
+			"HoudiniEngineTaskInfo.gen.cpp.obj",
+			"HoudiniGeoImportCommandlet.gen.cpp.obj",
+			"HoudiniGeoImporter.gen.cpp.obj",
+			"HoudiniInstanceTranslator.gen.cpp.obj",
+			"HoudiniMeshTranslator.gen.cpp.obj",
+			"HoudiniPackageParams.gen.cpp.obj",
+			"HoudiniPDGImporterMessages.gen.cpp.obj",
+			"HoudiniStringResolver.gen.cpp.obj"
+		]
+	}
+}

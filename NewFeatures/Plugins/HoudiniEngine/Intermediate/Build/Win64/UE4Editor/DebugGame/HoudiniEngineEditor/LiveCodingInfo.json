@@ -1,0 +1,67 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoudiniEngineEditor.1_of_4.cpp.obj": [
+			"AssetTypeActions_HoudiniAsset.cpp.obj",
+			"HoudiniAssetActorFactory.cpp.obj",
+			"HoudiniAssetBroker.cpp.obj",
+			"HoudiniAssetComponentDetails.cpp.obj",
+			"HoudiniAssetEditorActorFactory.cpp.obj",
+			"HoudiniAssetEditorFactory.cpp.obj",
+			"HoudiniAssetFactory.cpp.obj",
+			"HoudiniEngineBakeUtils.cpp.obj",
+			"HoudiniEngineCommands.cpp.obj",
+			"HoudiniEngineDetails.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.2_of_4.cpp.obj": [
+			"HoudiniEngineEditor.cpp.obj",
+			"HoudiniEngineEditorUtils.cpp.obj",
+			"HoudiniEngineStyle.cpp.obj",
+			"HoudiniGeoFactory.cpp.obj",
+			"HoudiniHandleComponentVisualizer.cpp.obj",
+			"HoudiniHandleDetails.cpp.obj",
+			"HoudiniInputDetails.cpp.obj",
+			"HoudiniOutputDetails.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.3_of_4.cpp.obj": [
+			"HoudiniParameterDetails.cpp.obj",
+			"HoudiniPDGDetails.cpp.obj",
+			"HoudiniPublicAPI.cpp.obj",
+			"HoudiniPublicAPIAssetWrapper.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.4_of_4.cpp.obj": [
+			"HoudiniPublicAPIBlueprintLib.cpp.obj",
+			"HoudiniPublicAPIInputTypes.cpp.obj",
+			"HoudiniPublicAPIObjectBase.cpp.obj",
+			"HoudiniPublicAPIOutputTypes.cpp.obj",
+			"HoudiniPublicAPIProcessHDANode.cpp.obj",
+			"HoudiniRuntimeSettingsDetails.cpp.obj",
+			"HoudiniSplineComponentVisualizer.cpp.obj",
+			"HoudiniTool.cpp.obj",
+			"SNewFilePathPicker.cpp.obj",
+			"HoudiniEditorTests.cpp.obj",
+			"HoudiniEditorTestUtils.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.gen.1_of_2.cpp.obj": [
+			"HoudiniAssetActorFactory.gen.cpp.obj",
+			"HoudiniAssetEditorActorFactory.gen.cpp.obj",
+			"HoudiniAssetEditorFactory.gen.cpp.obj",
+			"HoudiniAssetFactory.gen.cpp.obj",
+			"HoudiniEngineBakeUtils.gen.cpp.obj",
+			"HoudiniEngineCommands.gen.cpp.obj",
+			"HoudiniEngineEditor.init.gen.cpp.obj",
+			"HoudiniGeoFactory.gen.cpp.obj",
+			"HoudiniParameterDetails.gen.cpp.obj",
+			"HoudiniPublicAPI.gen.cpp.obj",
+			"HoudiniPublicAPIAssetWrapper.gen.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.gen.2_of_2.cpp.obj": [
+			"HoudiniPublicAPIBlueprintLib.gen.cpp.obj",
+			"HoudiniPublicAPIInputTypes.gen.cpp.obj",
+			"HoudiniPublicAPIObjectBase.gen.cpp.obj",
+			"HoudiniPublicAPIOutputTypes.gen.cpp.obj",
+			"HoudiniPublicAPIProcessHDANode.gen.cpp.obj",
+			"HoudiniTool.gen.cpp.obj"
+		]
+	}
+}

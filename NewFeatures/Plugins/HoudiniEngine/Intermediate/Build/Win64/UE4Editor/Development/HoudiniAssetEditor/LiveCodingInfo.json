@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoudiniAssetEditor.cpp.obj": [
+			"AssetTypeActions_HoudiniAssetEditor.cpp.obj",
+			"HoudiniAssetEditor.cpp.obj",
+			"HoudiniAssetEditorActions.cpp.obj",
+			"HoudiniAssetEditorModule.cpp.obj",
+			"HoudiniAssetEditorTools.cpp.obj",
+			"HoudiniAssetEditorViewportClient.cpp.obj",
+			"HoudiniAssetViewportLODCommands.cpp.obj",
+			"SHoudiniAssetEditorViewport.cpp.obj",
+			"SHoudiniAssetEditorViewportToolBar.cpp.obj"
+		]
+	}
+}
