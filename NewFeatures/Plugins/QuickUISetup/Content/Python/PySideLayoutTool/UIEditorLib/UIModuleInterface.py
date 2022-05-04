@@ -104,7 +104,8 @@ def load_modules(modules: List[str], bisPlugin) -> None:
         main_module = module['Name']
         if bisPlugin:
             if not bool(module['Enable']):
-                return
+                continue
+            
             main_module = "Plugins." + main_module
             uiplugin_path = module['Name']
             moduleLib = import_module(main_module)
