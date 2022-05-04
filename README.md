@@ -84,13 +84,27 @@ There is still a lot of work to do, but I think its in a decent phase to get som
   ### Extending PySide Layout Tool
    1. Make new Dictionary in Plugins
    2. Must have file *.uiplugin
-   3. Add Plugin Folder name to UIEditorProject.uiproject
+      ```json
+         "Categories":
+         [
+           {
+             "Name": "Common",
+             "Modules":
+             [
+                 "WidgetTestClass"
+             ]
+           }
+         ]
+      ```
+   4. Add Plugin Folder name to UIEditorProject.uiproject
       ```json
          {
             "Name" : "TestingWidgetPlugin",
             "Enable" : true
          }
       ```
+   - See Plugins/TestingWidgetPlugin for setup example.
+  
    ```python
     from PySideLayoutTool.UIEditorLib.UIEditorFactory import WidgetFactory
     from PySideLayoutTool.UIEditorLib import LayoutTemplate, TemplateBuildClass
