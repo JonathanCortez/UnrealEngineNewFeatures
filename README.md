@@ -191,7 +191,7 @@ There is still a lot of work to do, but I think its in a decent phase to get som
   ![Screenshot (434)](https://user-images.githubusercontent.com/19835724/166815862-54a6afee-ef4d-4fe3-8d63-4d20d2cd9d22.png)
 
   ### PySide Layout Tool with Houdini Engine HDA
-    - Not all HDA will work depending on there UI Layout this is still early WIP.
+    - Not all HDA will work depending on their UI Layout this is still early WIP.
     
   ![Screenshot (435)](https://user-images.githubusercontent.com/19835724/166820596-0b1fb6d8-77cb-4716-b9cf-352270e7e841.png)
 
