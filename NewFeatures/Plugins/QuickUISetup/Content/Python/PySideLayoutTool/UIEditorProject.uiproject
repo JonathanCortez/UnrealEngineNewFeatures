@@ -9,7 +9,7 @@
   "Plugins": [
     {
       "Name" : "UEHoudiniEnginePlugin",
-      "Enable" : true
+      "Enable" : false
     }
     ,
     {
