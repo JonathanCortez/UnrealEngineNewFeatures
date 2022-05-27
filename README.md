@@ -232,8 +232,6 @@ There is still a lot of work to do, but I think its in a decent phase to get som
     - Callback not implemented.
     - Needs more testing.
     
-  ### Collapisble
-    - Folder does not yet update properly on dynamic updates of other widgets.
     
     
     
