@@ -41,7 +41,9 @@ There is still a lot of work to do, but I think its in a decent phase to get som
   ### Script Section
      
    - On Parameter/Folder Callback to work with script: ```ui.editor('Name of UI', 'Category Name').pyModule('Module Name').func()```
-   - Also by passing ```self``` to your ```func(self)``` will pass parameter object whose callback is invoked.
+   - Special arguments that can be passed to invoked callback function:
+      - ```kwargs['parm']``` : return widget object the callback was invoked.
+      - ```kwargs['layout']``` : return parent layout window object.
    - To get other parameter objects : ```ui.layout('Name of UI', 'Category Name').parm('parameter Name')```
     
    ![Screenshot (419)](https://user-images.githubusercontent.com/19835724/166126567-36066af9-ab27-44e5-9a3e-8d211eca260c.png)
